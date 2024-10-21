@@ -28,7 +28,7 @@ app.use(express.static('public3'))
 app.get('/', (req, res) => {
     res.render('home3', {
         nombre: 'Cristian Mendoza',
-        titulo: 'Curso de Node'
+        titulo: 'Curso de NodeJs'
     })
 })
 
@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 app.get('/generic', (req, res) => {
     res.render('generic', {
         nombre: 'Cristian Mendoza',
-        titulo: 'Curso de Node'
+        titulo: 'Curso de NodeJs'
     })
 })
 
@@ -46,7 +46,7 @@ app.get('/generic', (req, res) => {
 app.get('/elements', (req, res) => {
     res.render('elements', {
         nombre: 'Cristian Mendoza ',
-        titulo: 'Curso de Node'
+        titulo: 'Curso de NodeJs'
     })
 })
 
